@@ -9,6 +9,7 @@ const HeroSection = () => {
   return (
     <div
       style={{
+        height: "100vh",
         backgroundColor: `${currentTheme.backgroundColor}`,
         padding: "1rem",
         color: `${currentTheme.textColor}`,
@@ -16,7 +17,7 @@ const HeroSection = () => {
       }}
     >
       <h1>Theme switcher</h1>
-      <p>
+      <p style={{ fontSize: "15px" }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Sem integer vitae
         justo eget magna fermentum iaculis eu. Mattis vulputate enim nulla
